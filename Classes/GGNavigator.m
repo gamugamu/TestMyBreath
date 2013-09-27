@@ -25,7 +25,6 @@
 }
 
 -(void)goNextPressed{
-
 	[self swapDelegate: [(id <GGNavigatorDelegate>)_delegate next]];
 }
 
@@ -62,9 +61,9 @@
 
 - (id)initWithDelegate:(UIViewController*) delegate_{
 	if((self = [super init])){
-		//[self set_delegate: delegate_];
+		[self set_delegate: delegate_];
 		[[self view] insertSubview:[delegate_ view] atIndex:0];
-		//[(id <GGNavigatorDelegate>)delegate_ viewWillbeCalled: self];
+		[(id <GGNavigatorDelegate>)delegate_ viewWillbeCalled: self];
 
 		//[self swapDelegate: nil];
 	}

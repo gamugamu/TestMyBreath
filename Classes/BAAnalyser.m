@@ -58,7 +58,6 @@
 #pragma mark private
 - (BOOL)willThatSmellsGood{
 	BOOL smell = !(rand()%BARand);
-	NSLog(@"smell %u", smell);
     return smell;
 }
 

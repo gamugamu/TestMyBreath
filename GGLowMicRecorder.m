@@ -7,7 +7,7 @@
 //
 #import "GGLowMicRecorder.h"
 
-// TODO: adding/removing Listener, clean Data when creating buffer, etc... That's class is really not complete!
+// TODO: adding/removing Listener, clean Data when creating buffer, etc...
 
 void cb_audioInput(void* inUserData, AudioQueueRef inAQ, AudioQueueBufferRef inBuffer, const AudioTimeStamp *inStartTime, UInt32 inNumberPacketDescriptions, const AudioStreamPacketDescription *inPacketDescs);
 
@@ -34,7 +34,7 @@ void cb_audioInput(void* inUserData, AudioQueueRef inAQ, AudioQueueBufferRef inB
 #pragma mark public
 - (void)recordTo:(NSURL*)urlPath{	
 	if(![[AVAudioSession sharedInstance] inputIsAvailable]) return;
-	
+
 	if(AudioQueueNewInput(&dataFormat,
 						  cb_audioInput,
 						  self,
@@ -42,17 +42,25 @@ void cb_audioInput(void* inUserData, AudioQueueRef inAQ, AudioQueueBufferRef inB
 						  kCFRunLoopCommonModes,
 						  0,
 						  &queue) == noErr)
-	{}
+	{
+    }
 	
 	UInt32 enabledLevelMeter	= YES;
 	AudioQueueSetProperty(queue, kAudioQueueProperty_EnableLevelMetering, &enabledLevelMeter, sizeof(UInt32));
+    AudioSessionInitialize(NULL, NULL, NULL, NULL);
+    UInt32 category = kAudioSessionCategory_PlayAndRecord;
+    AudioSessionSetProperty(kAudioSessionProperty_AudioCategory, sizeof(category), &category);
+    AudioSessionSetActive(YES);
+    
 	isRecording					= YES;
 	[self makeQueue];
 }
 
 - (void)stop:(BOOL)wantSave{
-	if(!isRecording) return;
-	isRecording = NO;
+	if(!isRecording)
+        return;
+	
+    isRecording = NO;
 	AudioQueueStop (queue,YES);
 	AudioQueueDispose (queue, YES);
 }
@@ -64,10 +72,10 @@ void cb_audioInput(void* inUserData,
 				   const AudioTimeStamp *inStartTime,
 				   UInt32 inNumberPacketDescriptions,
 		const AudioStreamPacketDescription *inPacketDescs){
-	
 	GGLowMicRecorder* recorder = (GGLowMicRecorder*)inUserData;
+
 	if(recorder.isRecording){
-		AudioFileWritePackets(recorder.audioFile, 
+		AudioFileWritePackets(recorder.audioFile,
 							  NO, 
 							  inBuffer->mAudioDataByteSize,
 							  inPacketDescs,
@@ -78,13 +86,14 @@ void cb_audioInput(void* inUserData,
 	}
 	
 	[recorder currentPAPower];
-	AudioQueueEnqueueBuffer(inAQ, inBuffer, 0, nil);
+    AudioQueueEnqueueBuffer(inAQ, inBuffer, 0, NULL);
 }
 
 - (void)currentPAPower{
 	AudioQueueLevelMeterState levelMeter;
 	UInt32 levelMeterSize = sizeof(AudioQueueLevelMeterState);
 	AudioQueueGetProperty(queue, kAudioQueueProperty_CurrentLevelMeterDB, &levelMeter, &levelMeterSize);
+
 	[delegate currentMeterState:levelMeter];
 }
 
@@ -96,6 +105,7 @@ AudioQueueBufferRef buffers[b_size];
 		AudioQueueAllocateBuffer(queue, (dataFormat.mSampleRate/10.0f)*dataFormat.mBytesPerFrame, &buffers[i]);
 		AudioQueueEnqueueBuffer(queue, buffers[i], 0, nil);
 	}
+
 	AudioQueueStart(queue, NULL);
 }
 
@@ -109,7 +119,7 @@ AudioQueueBufferRef buffers[b_size];
 	if ((self = [super init])) {
 		delegate						= delegate_;
 		dataFormat						= settings;
-		[[AVAudioSession sharedInstance] setDelegate:delegate];
+		//[[AVAudioSession sharedInstance] setDelegate: delegate];
 	}
 	return self;
 }

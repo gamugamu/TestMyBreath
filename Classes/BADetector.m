@@ -50,7 +50,6 @@
 
 #pragma mark event
 - (IBAction)launchBreathAnalyser:(id)sender{
-	NSLog(@"--------");
 	BOOL highlighted = [sender isSelected];
 	[_jaugeC reset];
 	[(UIButton*)sender setSelected: !highlighted];
@@ -75,7 +74,6 @@
 }
 
 - (void)swapToNoDetector{
-	//[UIView transitionFromView:<#(UIView *)#> toView:<#(UIView *)#> duration:<#(NSTimeInterval)#> options:<#(UIViewAnimationOptions)#> completion:<#^(BOOL finished)completion#>]
 	[_detectedView removeFromSuperview];
 	[self stopAnimating:		_detectedView];
 	[[self view] addSubview:	_noDetectedView];
@@ -224,7 +222,6 @@ enum{
 }detectorAnm_tag;
 
 - (void)animateDetectorView{
-	NSLog(@"*****");
 	UIView* micContainer	= [_detectedView viewWithTag: MicContainer];
 	UIView* bubble			= [_detectedView viewWithTag: Bubble];
 	[GGTween tween: micContainer.layer	to: (GGTweenVector){1, 1.05f} data: (GGTweenData){1, .6f, 0, 0, ggTweenScale, ggTweenBounce, MAXFLOAT, 0}];
@@ -291,7 +288,6 @@ enum{
 #pragma mark jaugeDelegate
 - (void)jaugeIsFull{
 	[_engine	stopAnalysingBreath];
-	NSLog(@"%u hadetecting", _engine.isDetecting);
 	[navigator goNextPressed];
 }
 

@@ -33,7 +33,6 @@
 }
 
 - (void)stopAnalysingBreath{
-	NSLog(@"BAEngine: asked to stop");
 	isDetecting			= NO;
 	blowrequestAsked	= NO;
 	[_recorderEngine stop: NO];
@@ -49,7 +48,6 @@
 }
 
 - (void)inputIsAvailableChanged:(BOOL)isInputAvailable{
-	NSLog(@"ichanged %u", isInputAvailable);
 	if(blowrequestAsked){
 		if(isInputAvailable) [self startAnalysingBreath];
 		[delegate InBlowDetectionChanged: isInputAvailable];

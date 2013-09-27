@@ -23,7 +23,6 @@
 
 #pragma mark button logic
 - (IBAction) startPressed:(id)sender{
-    
 	[navigator goNextPressed];
 }
 
