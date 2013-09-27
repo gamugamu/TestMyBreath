@@ -37,7 +37,13 @@ typedef enum{
 	[self set_breathes: [[UIView alloc] initWithFrame: CGRectMake(0, 0, 10, 10)]];
 	[self addSubview: _breathes];
 	_breathes.tag = BAStag_brth;
-	
+    
+    if(IS_IPHONE_5){
+        UIView* button		= [self viewWithTag: BAStag_btn];
+        CGPoint center = button.center;
+        center.y += 60;
+        button.center = center;
+    }
 	// set up font
 	UILabel* startLabel		= (UILabel*)[self viewWithTag: BAStag_lbl];
 	[startLabel setFont: [UIFont fontWithName: BAFontKarime size: 45]];
@@ -72,6 +78,8 @@ typedef enum{
 
 	for (int i = 0; i < BATotalBreathPic; i++) {
 		UIImageView* breath					= [[[UIImageView alloc] initWithImage: [UIImage imageNamed: BABreathImgFile]] autorelease];
+        if(IS_IPHONE_5)
+            points[i].y += 40;
 		breath.center						= points[i];
 		breath.alpha						= alpha[i];
 		breath.transform					= CGAffineTransformMakeScale(size[i], size[i]);
@@ -97,7 +105,7 @@ typedef enum{
     CGContextSaveGState(context);
 	
 	CGPoint startPnt	= CGPointMake(160, 0);
-	CGPoint endPnt		= CGPointMake(160, 480);
+    CGPoint endPnt		= CGPointMake(160, IS_IPHONE_5? SCREEN_IPHONE_HEIGHT : 480);
 
 	CGContextDrawLinearGradient(context, 
 								gradient, 

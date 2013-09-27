@@ -17,7 +17,7 @@
 
 @implementation BATrans
 +(void)beginTransition:(UIView*)view withDelegate:(id<BATransDelegate>)delegate{
-	BBreathTrans* transView = [[BBreathTrans alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+	BBreathTrans* transView = [[BBreathTrans alloc] initWithFrame:CGRectMake(0, 0, 320, IS_IPHONE_5? 568 : 480)];
 	[transView	setDelegate: delegate];
 	[view		addSubview: transView];
 	[transView	release];
@@ -36,11 +36,11 @@
 #define BATranTimeDuration	1
 
 - (void)decorate{
-	BAAllover* allOver	= [[BAAllover alloc] initWithFrame: CGRectMake(0, 0, 320, 480)];
+	BAAllover* allOver	= [[BAAllover alloc] initWithFrame: CGRectMake(0, 0, 320, IS_IPHONE_5? 568 : 480)];
 	[self		insertSubview:allOver atIndex: 0];
 	[allOver	release];
 	
-	self.frame			= CGRectMake(0, 640, 320, 480);
+	self.frame			= CGRectMake(0, 640, 320, IS_IPHONE_5? 568 : 480);
 	UIImageView* image	= [[UIImageView alloc] initWithImage: [UIImage  imageNamed: BATransPic0]];
 	image.center		= CGPointMake(160, -45);
 	[self	addSubview: image];
@@ -67,7 +67,7 @@
 - (void)animate{
 	[UIView animateWithDuration:BATranTimeDuration delay:0 options:UIViewAnimationOptionCurveEaseOut 
 					 animations:^(void) {
-						 self.frame = CGRectMake(0, 0, 320, 480);
+						 self.frame = CGRectMake(0, 0, 320, IS_IPHONE_5? 568 : 480);
 					 }completion:^(BOOL finished) {
 						 [delegate transFinished: self];
 					 }];

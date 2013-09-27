@@ -133,6 +133,7 @@
 		79E889CA13424B7300D4C521 /* GGSwap.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E889C913424B7300D4C521 /* GGSwap.m */; };
 		79E889CD1342665E00D4C521 /* BAPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E889CC1342665C00D4C521 /* BAPieChartView.m */; };
 		79E889CF134268F700D4C521 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E889CE134268F600D4C521 /* QuartzCore.framework */; };
+		D30164BE17F5F9DB008CCAA0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D30164BD17F5F9DB008CCAA0 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -296,6 +297,8 @@
 		79E889CC1342665C00D4C521 /* BAPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAPieChartView.m; path = ../BAPieChartView.m; sourceTree = "<group>"; };
 		79E889CE134268F600D4C521 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* BreathAnalyser-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BreathAnalyser-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		D30164BD17F5F9DB008CCAA0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D30164BF17F5FB40008CCAA0 /* IphoneUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IphoneUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -318,6 +321,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D30164BF17F5FB40008CCAA0 /* IphoneUtils.h */,
 				798838811349DD3E0071B331 /* BAPreference.h */,
 				79C55E02130C22EF000DAB79 /* main */,
 				79C56008130C4CBB000DAB79 /* controllers */,
@@ -338,6 +342,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				D30164BD17F5F9DB008CCAA0 /* Default-568h@2x.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -757,6 +762,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = RPS7F85M84;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BreathAnalyser" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -812,6 +822,7 @@
 				79BB94A11340DDFD009C459E /* BAStarter.xib in Resources */,
 				79BB94FD1340E033009C459E /* GGNavigator.xib in Resources */,
 				7968646B134200950027FD65 /* BAAnalysis.xib in Resources */,
+				D30164BE17F5F9DB008CCAA0 /* Default-568h@2x.png in Resources */,
 				7973CCDB1382DD040089A653 /* BreathData.plist in Resources */,
 				794CDD911344A90300241882 /* pieGloss.png in Resources */,
 				794CDD921344A90300241882 /* pieGloss@2x.png in Resources */,
@@ -944,8 +955,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: abadie loic (M982Z56999)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: abadie loic (M982Z56999)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -967,7 +978,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1002,7 +1014,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: abadie loic";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

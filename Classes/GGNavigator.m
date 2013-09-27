@@ -30,6 +30,7 @@
 
 - (void)viewDidLoad{
 	[_backButton setHidden: YES];
+    [self resizeIfIphone5];
     [super viewDidLoad];
 }
 
@@ -64,8 +65,6 @@
 		[self set_delegate: delegate_];
 		[[self view] insertSubview:[delegate_ view] atIndex:0];
 		[(id <GGNavigatorDelegate>)delegate_ viewWillbeCalled: self];
-
-		//[self swapDelegate: nil];
 	}
 	return self;
 }
@@ -77,4 +76,11 @@
     [super			dealloc];
 }
 
+#pragma mark - display
+
+- (void)resizeIfIphone5{
+    if(IS_IPHONE_5){
+        self.view.frame = SCREEN_IPHONE_5;
+    }
+}
 @end

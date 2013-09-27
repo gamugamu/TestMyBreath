@@ -57,6 +57,7 @@
 }
 
 - (void)viewDidLoad {
+    [self resizeIfIphone5];
     [super viewDidLoad];
 }
 
@@ -71,5 +72,19 @@
     [super		dealloc];
 }
 
+#pragma mark - display
 
+- (void)resizeIfIphone5{
+    if(IS_IPHONE_5){
+        CGRect frame = SCREEN_IPHONE_5;
+        self.view.frame = frame;
+        
+        for (UIView* subview in self.view.subviews) {
+            CGRect frame = subview.frame;
+            frame.origin.y += 10;
+            subview.frame = frame;
+        }
+        NSLog(@"self %@", self.view.subviews);
+    }
+}
 @end

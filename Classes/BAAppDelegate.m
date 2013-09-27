@@ -21,10 +21,12 @@
 	BAStarter* starter = [[BAStarter alloc] init];
     
 	GGNavigator* ggNavigator	= [[[GGNavigator alloc] initWithDelegate: starter] autorelease];
-	[self           setViewController: ggNavigator];
+	[self setViewController: ggNavigator];
     
     self.window.rootViewController = self.viewController;
     [self.window    addSubview: viewController.view];
+    self.window.frame = CGRectMake(0, 0, 320, 568);
+
     [self.window    makeKeyAndVisible];
     return YES;
 }
