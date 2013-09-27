@@ -1,0 +1,1026 @@
+TBreathAnalyser
+v7
+r0
+t322573616.552742
+cCheck dependencies
+cCpResource build/Debug-iphoneos/BreathAnalyser.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/Info.plist BreathAnalyser-Info.plist
+cCompileXIB /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/MainWindow.xib
+cCompileXIB /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BreathAnalyserViewController.xib
+cCompileXIB /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BAViewController.xib
+cProcessPCH /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-aoctcdhmkeivrthkzvyndcrbswna/BreathAnalyser_Prefix.pch.gch BreathAnalyser_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fedctgbizjmrtncbjdulecesguqz/BreathAnalyser_Prefix.pch.gch BreathAnalyser_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/main.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BAAppDelegate.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BAViewController.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGLowMicRecorder.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGarchiver.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BAEngine.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGDevice.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BreathAnalyser normal armv6
+cCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/main.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BAAppDelegate.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BAViewController.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGLowMicRecorder.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGarchiver.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BAEngine.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGDevice.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BreathAnalyser normal armv7
+cCreateUniversalBinary /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/BreathAnalyser normal "armv6 armv7"
+cGenerateDSYMFile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app.dSYM /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/BreathAnalyser
+cProcessProductPackaging "/Users/loicabadie/Library/MobileDevice/Provisioning Profiles/8C82DE4B-EA1D-4951-AD54-6E5B3D5463A4.mobileprovision" /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/embedded.mobileprovision
+cTouch /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser.xcent
+cCodeSign /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC11C42000000000020BF30
+t1287724098
+s2146096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC11C240000000000000733
+t1287724068
+s1843
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC10EF400000000003B8CB0
+t1287720692
+s3902640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioFile.h
+c000000004CC10EB6000000000000F12A
+t1287720630
+s61738
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC10EB60000000000000A23
+t1287720630
+s2595
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
+c000000004CC10E19000000000001032E
+t1287720473
+s66350
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/objc/runtime.h
+c000000004CC1098E00000000000053F9
+t1287719310
+s21497
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/utsname.h
+c000000004CBFACD90000000000000F14
+t1287630041
+s3860
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BAViewController.xib
+c000000004D5E6CD50000000000003A38
+t1298033877
+s14904
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BreathAnalyserViewController.xib
+c000000004D5E8F180000000000005F4C
+t1298042648
+s24396
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BreathAnalyser_Prefix.pch
+c000000004D5D089E00000000000000C5
+t1297942686
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.h
+c000000004D5C140D00000000000001DA
+t1297880077
+s474
+i<UIKit/UIKit.h>
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m
+c000000004D5E91920000000000000A01
+t1298043282
+s2561
+i"BAAppDelegate.h"
+i"BAViewController.h"
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.h
+c000000004D5E91190000000000000229
+t1298043161
+s553
+i<Foundation/Foundation.h>
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m
+c000000004D5E967B00000000000008F4
+t1298044539
+s2292
+i"BAEngine.h"
+i"GGLowMicRecorder.h"
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.h
+c000000004D5E8C6900000000000001A1
+t1298041961
+s417
+i<UIKit/UIKit.h>
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m
+c000000004D5E964300000000000006B9
+t1298044483
+s1721
+i"BAViewController.h"
+i"BAEngine.h"
+i"GGDevice.h"
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserAppDelegate.h
+c000000004D540D9D000000000000020A
+t1297354141
+s522
+i<UIKit/UIKit.h>
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserAppDelegate.m
+c000000004D5C00220000000000000BB9
+t1297874978
+s3001
+i"BreathAnalyserAppDelegate.h"
+i"BreathAnalyserViewController.h"
+i"GGMicRecorder.h"
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserViewController.h
+c000000004D540D9D0000000000000104
+t1297354141
+s260
+i<UIKit/UIKit.h>
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserViewController.m
+c000000004D540D9D00000000000005DE
+t1297354141
+s1502
+i"BreathAnalyserViewController.h"
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.h
+c000000004D5D5DD90000000000000183
+t1297964505
+s387
+i<Foundation/Foundation.h>
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m
+c000000004D5D5FC900000000000002FD
+t1297965001
+s765
+i"GGDevice.h"
+i<sys/utsname.h>
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.h
+c000000004D5BF2F40000000000000173
+t1297871604
+s371
+i<Foundation/Foundation.h>
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m
+c000000004D5C063E0000000000000415
+t1297876542
+s1045
+i"GGarchiver.h"
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.h
+c000000004D5E8ED8000000000000030F
+t1298042584
+s783
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioToolbox.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m
+c000000004D5E919F0000000000000D27
+t1298043295
+s3367
+i"GGLowMicRecorder.h"
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicDeviceAnalyser.h
+c000000004D5D38A200000000000001F6
+t1297954978
+s502
+i<Foundation/Foundation.h>
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicDeviceAnalyser.m
+c000000004D5D43010000000000000C31
+t1297957633
+s3121
+i"GGMicDeviceAnalyser.h"
+i<AVFoundation/AVFoundation.h>
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicRecorder.h
+c000000004D5C1EA80000000000000342
+t1297882792
+s834
+i<Foundation/Foundation.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicRecorder.m
+c000000004D5C20860000000000000C2C
+t1297883270
+s3116
+i<CoreAudio/CoreAudioTypes.h>
+i"GGMicRecorder.h"
+i"GGArchiver.h"
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/MainWindow.xib
+c000000004D5C14070000000000004C65
+t1297880071
+s19557
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser.xcent
+t1297958022
+s434
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BAAppDelegate.o
+t1298043704
+s50324
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BAEngine.o
+t1298044540
+s18620
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BAViewController.o
+t1298044540
+s45996
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BreathAnalyser
+t1298044540
+s37264
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BreathAnalyser.LinkFileList
+c000000004D5D57580000000000000465
+t1297962840
+s1125
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BreathAnalyserAppDelegate.o
+t1297876191
+s54000
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BreathAnalyserViewController.o
+t1297354146
+s37664
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGDevice.o
+t1297965001
+s9536
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGLowMicRecorder.o
+t1298043704
+s24416
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGMicDeviceAnalyser.o
+t1297957635
+s9852
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGMicRecorder.o
+t1297943784
+s21416
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGarchiver.o
+t1297958021
+s12456
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/main.o
+t1297958021
+s6496
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BAAppDelegate.o
+t1298043705
+s50240
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BAEngine.o
+t1298044540
+s18144
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BAViewController.o
+t1298044540
+s45804
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BreathAnalyser
+t1298044540
+s36828
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BreathAnalyser.LinkFileList
+c000000004D5D57580000000000000465
+t1297962840
+s1125
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BreathAnalyserAppDelegate.o
+t1297876192
+s53748
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BreathAnalyserViewController.o
+t1297354146
+s37644
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGDevice.o
+t1297965001
+s9484
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGLowMicRecorder.o
+t1298043706
+s23716
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGMicDeviceAnalyser.o
+t1297957635
+s9812
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGMicRecorder.o
+t1297943785
+s20944
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGarchiver.o
+t1297958022
+s12388
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/main.o
+t1297958021
+s6480
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv6/BAAppDelegate.plist
+t1297964601
+s276
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv6/BAEngine.plist
+t1297964601
+s276
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv6/BAViewController.plist
+t1297964601
+s276
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv6/GGDevice.plist
+t2
+s0
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv6/GGLowMicRecorder.plist
+t1297964601
+s276
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv6/GGarchiver.plist
+t1297964601
+s276
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv6/main.plist
+t1297964601
+s276
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv7/BAAppDelegate.plist
+t1297964601
+s276
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv7/BAEngine.plist
+t1297964601
+s276
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv7/BAViewController.plist
+t1297964601
+s276
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv7/GGDevice.plist
+t2
+s0
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv7/GGLowMicRecorder.plist
+t1297964601
+s276
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv7/GGarchiver.plist
+t1297964601
+s276
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv7/main.plist
+t1297964601
+s276
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app
+t1298044541
+s408
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app.dSYM
+t1298044540
+s102
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/BAViewController.nib
+t1298043703
+s764
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/BreathAnalyser
+t1298044540
+s91984
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/BreathAnalyserViewController.nib
+t1298043703
+s2099
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/Info.plist
+t1297958019
+s846
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/MainWindow.nib
+t1297958020
+s1147
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/PkgInfo
+t1297958019
+s8
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/ResourceRules.plist
+t1297958019
+s485
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/embedded.mobileprovision
+t1297958022
+s7238
+
+N/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m
+c000000004D540D9D0000000000000171
+t1297354141
+s369
+i<UIKit/UIKit.h>
+
+N/Users/loicabadie/Library/MobileDevice/Provisioning Profiles/8C82DE4B-EA1D-4951-AD54-6E5B3D5463A4.mobileprovision
+c000000004D42CEAF0000000000001C46
+t1296223919
+s7238
+
+N/var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-aoctcdhmkeivrthkzvyndcrbswna/BreathAnalyser_Prefix.pch.gch
+t1297958021
+s9983704
+
+N/var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fedctgbizjmrtncbjdulecesguqz/BreathAnalyser_Prefix.pch.gch
+t1297958021
+s10446552
+
+N/var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fuljxpvhkbejdfeuxjjmekzhfvbk/BreathAnalyser_Prefix.pch.pth
+t1297964601
+s2752628
+
+N/var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fzjzjopkoclalabnxqitjkstmzgx/BreathAnalyser_Prefix.pch.pth
+t1297964601
+s2752476
+
+NBreathAnalyser-Info.plist
+c000000004D5BEB5B00000000000003BE
+t1297869659
+s958
+
+CAnalyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m
+s319657401.541255
+e319657401.607270
+r1
+xAnalyze
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m
+lSLF07#2@94"Analyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m319657401#319657401#0(0"0(0#0#86"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m8656744992#2183"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fuljxpvhkbejdfeuxjjmekzhfvbk/BreathAnalyser_Prefix.pch --analyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv7/BAAppDelegate.plist0#
+
+CAnalyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m
+s319657401.678077
+e319657401.782372
+r1
+xAnalyze
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m
+lSLF07#2@89"Analyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m319657401#319657401#0(0"0(0#0#81"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m8678433440#2173"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fuljxpvhkbejdfeuxjjmekzhfvbk/BreathAnalyser_Prefix.pch --analyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv7/BAEngine.plist0#
+
+CAnalyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m
+s319657401.565152
+e319657401.622262
+r1
+xAnalyze
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m
+lSLF07#2@97"Analyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m319657401#319657401#0(0"0(0#0#89"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m8670573376#2189"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fuljxpvhkbejdfeuxjjmekzhfvbk/BreathAnalyser_Prefix.pch --analyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv7/BAViewController.plist0#
+
+CAnalyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m
+s319657401.761548
+e319657401.828437
+r1
+xAnalyze
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m
+o/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m:33:40:{33:46-33:56}: error: invalid application of 'sizeof' to interface 'NSString' in non-fragile ABI
+o         for (int i = 0; i < sizeof(modelName)/sizeof(NSString); i++)
+o                                               ^     ~~~~~~~~~~
+o1 error generated.
+lSLF07#2@81"Analyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m319657401#319657401#0(330"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m:33:40:{33:46-33:56}: error: invalid application of 'sizeof' to interface 'NSString' in non-fragile ABI         for (int i = 0; i < sizeof(modelName)/sizeof(NSString); i++)                                               ^     ~~~~~~~~~~1 error generated.0(0#0#73"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m8670884224#2165"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fuljxpvhkbejdfeuxjjmekzhfvbk/BreathAnalyser_Prefix.pch --analyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv7/GGDevice.plist0#
+
+CAnalyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m
+s319657401.622355
+e319657401.677988
+r1
+xAnalyze
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m
+lSLF07#2@93"Analyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m319657401#319657401#0(0"0(0#0#85"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m8666464224#2179"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fuljxpvhkbejdfeuxjjmekzhfvbk/BreathAnalyser_Prefix.pch --analyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv7/GGarchiver.plist0#
+
+CAnalyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m
+s319657401.607378
+e319657401.761461
+r1
+xAnalyze
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m
+lSLF07#2@89"Analyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m319657401#319657401#0(0"0(0#0#81"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m8669443488#2181"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fuljxpvhkbejdfeuxjjmekzhfvbk/BreathAnalyser_Prefix.pch --analyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv7/GGLowMicRecorder.plist0#
+
+CAnalyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m
+s319657401.486764
+e319657401.541170
+r1
+xAnalyze
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m
+lSLF07#2@77"Analyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m319657401#319657401#0(0"0(0#0#69"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m8658507776#2157"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fuljxpvhkbejdfeuxjjmekzhfvbk/BreathAnalyser_Prefix.pch --analyze /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/StaticAnalyzer/normal/armv7/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322573615#322573615#0(0"0(0#1#0"29836824280170608#0"0#
+
+CCodeSign /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app
+s322573615.995213
+e322573616.552692
+r1
+xCodeSign
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app
+o/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app: replacing existing signature
+lSLF07#2@48"CodeSign build/Debug-iphoneos/BreathAnalyser.app322573616#322573616#0(133"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app: replacing existing signature0(0#0#102"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app34058936044814448#778"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: abadie loic (M982Z56999)" --resource-rules=/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/ResourceRules.plist --entitlements /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser.xcent /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BAAppDelegate.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319736503.276045
+e319736504.139889
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BAAppDelegate.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m319736503#319736504#0(0"0(0#0#86"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m8654019456#2154"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv6 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-aoctcdhmkeivrthkzvyndcrbswna/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BAAppDelegate.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BAEngine.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319737340.427184
+e319737340.670420
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BAEngine.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m319737340#319737340#0(0"0(0#0#81"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m8650965856#2144"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv6 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-aoctcdhmkeivrthkzvyndcrbswna/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BAEngine.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BAViewController.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319737340.360205
+e319737340.541565
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BAViewController.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m319737340#319737340#0(0"0(0#0#89"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m8610951872#2160"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv6 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-aoctcdhmkeivrthkzvyndcrbswna/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BAViewController.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BreathAnalyserAppDelegate.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319568990.519534
+e319568991.443784
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BreathAnalyserAppDelegate.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserAppDelegate.m319568990#319568991#0(0"0(0#0#98"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserAppDelegate.m8638829280#2178"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv6 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-aoctcdhmkeivrthkzvyndcrbswna/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserAppDelegate.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BreathAnalyserAppDelegate.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BreathAnalyserViewController.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319046946.424660
+e319046946.500802
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BreathAnalyserViewController.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserViewController.m319046946#319046946#0(0"0(0#0#101"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserViewController.m8646652064#2184"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv6 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-aoctcdhmkeivrthkzvyndcrbswna/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserViewController.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BreathAnalyserViewController.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGDevice.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319657801.679311
+e319657801.856411
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGDevice.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m319657801#319657801#0(0"0(0#0#73"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m8670918784#2136"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv6 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-aoctcdhmkeivrthkzvyndcrbswna/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGDevice.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGLowMicRecorder.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319736504.140119
+e319736504.314166
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGLowMicRecorder.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m319736504#319736504#0(0"0(0#0#81"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m8642125728#2152"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv6 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-aoctcdhmkeivrthkzvyndcrbswna/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGLowMicRecorder.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGMicDeviceAnalyser.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicDeviceAnalyser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319650434.894553
+e319650435.148068
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGMicDeviceAnalyser.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicDeviceAnalyser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicDeviceAnalyser.m319650434#319650435#0(0"0(0#0#84"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicDeviceAnalyser.m8596674592#2158"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv6 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-aoctcdhmkeivrthkzvyndcrbswna/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicDeviceAnalyser.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGMicDeviceAnalyser.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGMicRecorder.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicRecorder.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319636584.107205
+e319636584.767052
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGMicRecorder.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicRecorder.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicRecorder.m319636584#319636584#0(0"0(0#0#78"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicRecorder.m8631294752#2146"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv6 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-aoctcdhmkeivrthkzvyndcrbswna/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicRecorder.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGMicRecorder.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGarchiver.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319650821.573045
+e319650821.655173
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGarchiver.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m319650821#319650821#0(0"0(0#0#85"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m8657388448#2150"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv6 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-aoctcdhmkeivrthkzvyndcrbswna/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/GGarchiver.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/main.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319650821.435975
+e319650821.493892
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/main.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m319650821#319650821#0(0"0(0#0#69"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m8663652160#2128"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv6 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-aoctcdhmkeivrthkzvyndcrbswna/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BAAppDelegate.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319736504.300283
+e319736505.848923
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BAAppDelegate.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m319736504#319736505#0(0"0(0#0#86"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m8630932256#2154"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fedctgbizjmrtncbjdulecesguqz/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAAppDelegate.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BAAppDelegate.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BAEngine.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319737340.631478
+e319737340.778184
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BAEngine.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m319737340#319737340#0(0"0(0#0#81"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m8651943328#2144"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fedctgbizjmrtncbjdulecesguqz/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAEngine.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BAEngine.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BAViewController.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319737340.542033
+e319737340.631021
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BAViewController.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m319737340#319737340#0(0"0(0#0#89"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m8655884736#2160"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fedctgbizjmrtncbjdulecesguqz/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BAViewController.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BAViewController.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BreathAnalyserAppDelegate.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319568991.442575
+e319568992.175706
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BreathAnalyserAppDelegate.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserAppDelegate.m319568991#319568992#0(0"0(0#0#98"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserAppDelegate.m8658340448#2178"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fedctgbizjmrtncbjdulecesguqz/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserAppDelegate.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BreathAnalyserAppDelegate.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BreathAnalyserViewController.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319046946.544237
+e319046946.615112
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BreathAnalyserViewController.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserViewController.m319046946#319046946#0(0"0(0#0#101"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserViewController.m8642160736#2184"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fedctgbizjmrtncbjdulecesguqz/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/Classes/BreathAnalyserViewController.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BreathAnalyserViewController.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGDevice.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319657801.856750
+e319657801.927734
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGDevice.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m319657801#319657801#0(0"0(0#0#73"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m8641523168#2136"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fedctgbizjmrtncbjdulecesguqz/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGDevice.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGDevice.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGLowMicRecorder.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319736505.922555
+e319736506.063897
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGLowMicRecorder.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m319736505#319736506#0(0"0(0#0#81"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m8644452736#2152"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fedctgbizjmrtncbjdulecesguqz/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLowMicRecorder.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGLowMicRecorder.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGMicDeviceAnalyser.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicDeviceAnalyser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319650435.289890
+e319650435.429462
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGMicDeviceAnalyser.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicDeviceAnalyser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicDeviceAnalyser.m319650435#319650435#0(0"0(0#0#84"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicDeviceAnalyser.m8657823584#2158"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fedctgbizjmrtncbjdulecesguqz/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicDeviceAnalyser.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGMicDeviceAnalyser.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGMicRecorder.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicRecorder.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319636585.010937
+e319636585.128511
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGMicRecorder.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicRecorder.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicRecorder.m319636585#319636585#0(0"0(0#0#78"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicRecorder.m8617766400#2146"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fedctgbizjmrtncbjdulecesguqz/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGMicRecorder.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGMicRecorder.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGarchiver.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319650821.980950
+e319650822.048283
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGarchiver.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m319650821#319650822#0(0"0(0#0#85"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m8663833632#2150"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fedctgbizjmrtncbjdulecesguqz/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/GGLibrary/GGarchiver.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/GGarchiver.o0#
+
+CCompileC build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/main.o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319650821.735609
+e319650821.793626
+r1
+xCompileC
+xbuild/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/main.o
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m319650821#319650821#0(0"0(0#0#69"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m8660000256#2128"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -include /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fedctgbizjmrtncbjdulecesguqz/BreathAnalyser_Prefix.pch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/main.m -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BAViewController.xib
+s319736502.637570
+e319736503.217662
+r1
+xCompileXIB
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BAViewController.xib
+lSLF07#2@31"CompileXIB BAViewController.xib319736502#319736503#0(0"0(0#0#83"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BAViewController.xib8646882240#633"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/BAViewController.nib /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BAViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BreathAnalyserViewController.xib
+s319736502.636863
+e319736503.275658
+r1
+xCompileXIB
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BreathAnalyserViewController.xib
+lSLF07#2@43"CompileXIB BreathAnalyserViewController.xib319736502#319736503#0(0"0(0#0#95"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BreathAnalyserViewController.xib8651280512#657"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/BreathAnalyserViewController.nib /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BreathAnalyserViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/MainWindow.xib
+s319650819.733950
+e319650820.366328
+r1
+xCompileXIB
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib319650819#319650820#0(0"0(0#0#77"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/MainWindow.xib8657311008#621"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/MainWindow.nib /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/BreathAnalyser.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s319650819.705461
+e319650819.713020
+r1
+xCpResource
+xbuild/Debug-iphoneos/BreathAnalyser.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist319650819#319650819#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8659474976#549"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app0#
+
+CCreateUniversalBinary /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/BreathAnalyser normal "armv6 armv7"
+s319737340.808858
+e319737340.812157
+r1
+xCreateUniversalBinary
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/BreathAnalyser
+xnormal
+xarmv6 armv7
+lSLF07#2@97"CreateUniversalBinary build/Debug-iphoneos/BreathAnalyser.app/BreathAnalyser normal "armv6 armv7"319737340#319737340#0(0"0(0#0#74"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/armv6 armv78651214656#670"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BreathAnalyser /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BreathAnalyser -output /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/BreathAnalyser0#
+
+CGenerateDSYMFile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app.dSYM /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/BreathAnalyser
+s319737340.812241
+e319737340.837459
+r1
+xGenerateDSYMFile
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app.dSYM
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/BreathAnalyser
+lSLF07#2@116"GenerateDSYMFile build/Debug-iphoneos/BreathAnalyser.app.dSYM build/Debug-iphoneos/BreathAnalyser.app/BreathAnalyser319737340#319737340#0(0"0(0#0#117"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/BreathAnalyser8642241344#455"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/BreathAnalyser -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app.dSYM0#
+
+CLd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BreathAnalyser normal armv6
+s319737340.670512
+e319737340.730892
+r1
+xLd
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BreathAnalyser
+xnormal
+xarmv6
+lSLF07#2@166"Link /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BreathAnalyser319737340#319737340#0(0"0(0#0#0"8652737920#1069"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -filelist /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BreathAnalyser.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework AudioToolbox -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv6/BreathAnalyser0#
+
+CLd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BreathAnalyser normal armv7
+s319737340.778282
+e319737340.808759
+r1
+xLd
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BreathAnalyser
+xnormal
+xarmv7
+lSLF07#2@166"Link /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BreathAnalyser319737340#319737340#0(0"0(0#0#0"8652204832#1069"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -filelist /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BreathAnalyser.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework AudioToolbox -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/Objects-normal/armv7/BreathAnalyser0#
+
+CProcessInfoPlistFile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/Info.plist BreathAnalyser-Info.plist
+s319650819.706645
+e319650819.733529
+r1
+xProcessInfoPlistFile
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/Info.plist
+xBreathAnalyser-Info.plist
+lSLF07#2@33"Process BreathAnalyser-Info.plist319650819#319650819#0(0"0(0#0#88"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BreathAnalyser-Info.plist8659315776#686"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility BreathAnalyser-Info.plist -genpkginfo /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/ResourceRules.plist -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/Info.plist0#
+
+CProcessPCH /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-aoctcdhmkeivrthkzvyndcrbswna/BreathAnalyser_Prefix.pch.gch BreathAnalyser_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319650820.366450
+e319650821.357592
+r1
+xProcessPCH
+x/var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-aoctcdhmkeivrthkzvyndcrbswna/BreathAnalyser_Prefix.pch.gch
+xBreathAnalyser_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile BreathAnalyser_Prefix.pch319650820#319650821#0(0"0(0#0#88"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BreathAnalyser_Prefix.pch8672444192#1995"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv6 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BreathAnalyser_Prefix.pch -o /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-aoctcdhmkeivrthkzvyndcrbswna/BreathAnalyser_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fedctgbizjmrtncbjdulecesguqz/BreathAnalyser_Prefix.pch.gch BreathAnalyser_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319650820.367424
+e319650821.435873
+r1
+xProcessPCH
+x/var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fedctgbizjmrtncbjdulecesguqz/BreathAnalyser_Prefix.pch.gch
+xBreathAnalyser_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile BreathAnalyser_Prefix.pch319650820#319650821#0(0"0(0#0#88"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BreathAnalyser_Prefix.pch8664838912#1995"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BreathAnalyser_Prefix.pch -o /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fedctgbizjmrtncbjdulecesguqz/BreathAnalyser_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fuljxpvhkbejdfeuxjjmekzhfvbk/BreathAnalyser_Prefix.pch.pth BreathAnalyser_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s319657400.698989
+e319657401.018162
+r1
+xProcessPCH
+x/var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fuljxpvhkbejdfeuxjjmekzhfvbk/BreathAnalyser_Prefix.pch.pth
+xBreathAnalyser_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@36"Precompile BreathAnalyser_Prefix.pch319657400#319657401#0(0"0(0#0#88"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BreathAnalyser_Prefix.pch8667454080#2006"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv7 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BreathAnalyser_Prefix.pch -o /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fuljxpvhkbejdfeuxjjmekzhfvbk/BreathAnalyser_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fzjzjopkoclalabnxqitjkstmzgx/BreathAnalyser_Prefix.pch.pth BreathAnalyser_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s319657400.696940
+e319657401.073668
+r1
+xProcessPCH
+x/var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fzjzjopkoclalabnxqitjkstmzgx/BreathAnalyser_Prefix.pch.pth
+xBreathAnalyser_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@36"Precompile BreathAnalyser_Prefix.pch319657400#319657401#0(0"0(0#0#88"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BreathAnalyser_Prefix.pch8668258208#2006"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-generated-files.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-own-target-headers.hmap -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-all-target-headers.hmap -iquote /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser-project-headers.hmap -F/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/include -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources/armv6 -I/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/DerivedSources -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/BreathAnalyser_Prefix.pch -o /var/folders/qj/qjpe9vhpFbKgaL5cGnc85++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreathAnalyser_Prefix-fzjzjopkoclalabnxqitjkstmzgx/BreathAnalyser_Prefix.pch.pth0#
+
+CProcessProductPackaging "/Users/loicabadie/Library/MobileDevice/Provisioning Profiles/8C82DE4B-EA1D-4951-AD54-6E5B3D5463A4.mobileprovision" /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/embedded.mobileprovision
+s319650822.242527
+e319650822.243710
+r1
+xProcessProductPackaging
+x/Users/loicabadie/Library/MobileDevice/Provisioning Profiles/8C82DE4B-EA1D-4951-AD54-6E5B3D5463A4.mobileprovision
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/embedded.mobileprovision
+lSLF07#2@204"ProcessProductPackaging "/Users/loicabadie/Library/MobileDevice/Provisioning Profiles/8C82DE4B-EA1D-4951-AD54-6E5B3D5463A4.mobileprovision" build/Debug-iphoneos/BreathAnalyser.app/embedded.mobileprovision319650822#319650822#0(0"0(0#0#127"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/embedded.mobileprovision8659265120#483"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/loicabadie/Library/MobileDevice/Provisioning Profiles/8C82DE4B-EA1D-4951-AD54-6E5B3D5463A4.mobileprovision" -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser.xcent
+s319650822.246724
+e319650822.272243
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser.xcent
+lSLF07#2@196"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser.xcent319650822#319650822#0(0"0(0#0#146"/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser.xcent8633836128#501"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/BreathAnalyser.build/Debug-iphoneos/BreathAnalyser.build/BreathAnalyser.xcent0#
+
+CTouch /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app
+s319737340.837648
+e319737340.840093
+r1
+xTouch
+x/Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app
+lSLF07#2@108"Touch /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app319737340#319737340#0(0"0(0#0#0"8634125280#319"    cd /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/loicabadie/Documents/programation/Iphone/BreathAnalyser/build/Debug-iphoneos/BreathAnalyser.app0#
+

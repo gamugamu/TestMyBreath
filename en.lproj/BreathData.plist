@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>List_Molecular</key>
+	<dict>
+		<key>bad</key>
+		<dict>
+			<key>0</key>
+			<string>spices</string>
+			<key>1</key>
+			<string>rotten meat</string>
+			<key>10</key>
+			<string>bacteria</string>
+			<key>11</key>
+			<string>garlic</string>
+			<key>12</key>
+			<string>alcohol</string>
+			<key>13</key>
+			<string>old milk</string>
+			<key>2</key>
+			<string>sulfur</string>
+			<key>3</key>
+			<string>bad sugar</string>
+			<key>4</key>
+			<string>tabaco</string>
+			<key>5</key>
+			<string>potatoes</string>
+			<key>6</key>
+			<string>onion</string>
+			<key>7</key>
+			<string>old cheese</string>
+			<key>8</key>
+			<string>rotten fish</string>
+			<key>9</key>
+			<string>bio hazard</string>
+		</dict>
+		<key>good</key>
+		<dict>
+			<key>0</key>
+			<string>menthol</string>
+			<key>1</key>
+			<string>parsley</string>
+			<key>2</key>
+			<string>rosemary</string>
+			<key>3</key>
+			<string>clove</string>
+			<key>4</key>
+			<string>rose</string>
+			<key>5</key>
+			<string>pasta dente</string>
+			<key>6</key>
+			<string>flower</string>
+			<key>7</key>
+			<string>cinnamon</string>
+			<key>8</key>
+			<string>green tea</string>
+		</dict>
+	</dict>
+	<key>List_Result</key>
+	<dict>
+		<key>bad</key>
+		<array>
+			<string>please, brush your teeth!</string>
+			<string>Do you have friends?</string>
+			<string>ho, i said blowin, not fartin!</string>
+			<string>Did you ever kill someone with your bad breath?</string>
+			<string>Don&apos;t speak near your device, you&apos;re going to break it</string>
+			<string>Having a so bad breath, that should be a crime!</string>
+			<string>even the death flee you!</string>
+			<string>Do you use garlic pasta teeth?</string>
+			<string>Have you ever been called yeti?</string>
+			<string>You should see a teeth doctor</string>
+			<string>Even satan has not a so bad breath</string>
+			<string>please!!!</string>
+		</array>
+		<key>good</key>
+		<array>
+			<string>you&apos;re ok like a lotus flower</string>
+			<string>no problem here</string>
+			<string>you passed the test!</string>
+			<string>you get the pass to kiss someone</string>
+			<string>you smell good like the roses</string>
+			<string>I see, you just brushed your teeh</string>
+		</array>
+	</dict>
+	<key>List_SmellSimilarity</key>
+	<dict>
+		<key>bad</key>
+		<dict>
+			<key>New item</key>
+			<string>a water closet from a pub</string>
+			<key>New item - 10</key>
+			<string>a spread poo</string>
+			<key>New item - 11</key>
+			<string>a smelly polecat</string>
+			<key>New item - 12</key>
+			<string>a pirate who never wash his teeth</string>
+			<key>New item - 13</key>
+			<string>a marathon&apos;s feet</string>
+			<key>New item - 14</key>
+			<string>a dirty chimpanzee</string>
+			<key>New item - 15</key>
+			<string>a stupid donkey</string>
+			<key>New item - 16</key>
+			<string>a crushed cat</string>
+			<key>New item - 17</key>
+			<string>an aligator mouth</string>
+			<key>New item - 2</key>
+			<string>a dead rat</string>
+			<key>New item - 3</key>
+			<string>a ben never washed</string>
+			<key>New item - 4</key>
+			<string>an exploding volcano</string>
+			<key>New item - 5</key>
+			<string>the hell</string>
+			<key>New item - 6</key>
+			<string>a tramp&apos;s dirty shoes</string>
+			<key>New item - 7</key>
+			<string>a sport socks</string>
+			<key>New item - 8</key>
+			<string>an old zombie</string>
+			<key>New item - 9</key>
+			<string>a really bad komodo </string>
+		</dict>
+		<key>good</key>
+		<dict>
+			<key>New item</key>
+			<string>a lotus flower</string>
+			<key>New item - 2</key>
+			<string>a mint</string>
+			<key>New item - 3</key>
+			<string>vanilla</string>
+			<key>New item - 4</key>
+			<string>strawberry</string>
+			<key>New item - 5</key>
+			<string>dente pasta</string>
+			<key>New item - 6</key>
+			<string>cinamon</string>
+			<key>New item - 7</key>
+			<string>the spring</string>
+			<key>New item - 8</key>
+			<string>that smells nothing ;)</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

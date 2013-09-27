@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>label_A</key>
+	<string>with mic plug</string>
+	<key>label_B</key>
+	<string>version 4</string>
+	<key>label_AB</key>
+	<string>blow softly on the mic input</string>
+	<key>label_ABTitle</key>
+	<string>A and B</string>
+	<key>MicDetected</key>
+	<string>Mic Detected!</string>
+	<key>MicInstruction</key>
+	<string>please  blow soflty on the mic</string>
+	<key>label_Sorry</key>
+	<string>sorry, but...</string>
+	<key>label_NoMicDetected</key>
+	<string>TestMyBreath need a mic in order to analyse your breath.</string>
+	<key>label_WhatUCanDo</key>
+	<string>You can still plug an earphone with a mic or a simple mic on your device.</string>
+	<key>label_BreathData</key>
+	<string>breath data:</string>
+	<key>label_SmellSimilarity</key>
+	<string>smell similarity:</string>
+	<key>label_BreathResult</key>
+	<string>breathResult:</string>
+</dict>
+</plist>

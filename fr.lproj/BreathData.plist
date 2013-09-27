@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>List_Molecular</key>
+	<dict>
+		<key>bad</key>
+		<dict>
+			<key>0</key>
+			<string>épices</string>
+			<key>1</key>
+			<string>viande pourrie</string>
+			<key>10</key>
+			<string>bacteries</string>
+			<key>11</key>
+			<string>ail</string>
+			<key>12</key>
+			<string>alcool</string>
+			<key>13</key>
+			<string>view lait</string>
+			<key>2</key>
+			<string>souffre</string>
+			<key>3</key>
+			<string>mauvais sucre</string>
+			<key>4</key>
+			<string>tabac</string>
+			<key>5</key>
+			<string>patates</string>
+			<key>6</key>
+			<string>oignon</string>
+			<key>7</key>
+			<string>view fromage</string>
+			<key>8</key>
+			<string>poisson pourrie</string>
+			<key>9</key>
+			<string>bio hazard</string>
+		</dict>
+		<key>good</key>
+		<dict>
+			<key>0</key>
+			<string>menthe</string>
+			<key>1</key>
+			<string>persil</string>
+			<key>2</key>
+			<string>romarin</string>
+			<key>3</key>
+			<string>clou de girofle</string>
+			<key>4</key>
+			<string>rose</string>
+			<key>5</key>
+			<string>dentifrice</string>
+			<key>6</key>
+			<string>fleur</string>
+			<key>7</key>
+			<string>cannelle</string>
+			<key>8</key>
+			<string>tea vert</string>
+		</dict>
+	</dict>
+	<key>List_Result</key>
+	<dict>
+		<key>bad</key>
+		<array>
+			<string>Brosse toi les dents!</string>
+			<string>As tu des amis?</string>
+			<string>J&apos;ai dis souffler, pas péter</string>
+			<string>Tu as déjà tué quelqu&apos;un avec ta mauvaise haleine?</string>
+			<string>Ne parle pas près de ton appareil, tu vas le casser</string>
+			<string>ça devrait être un crime d&apos;avoir aussi mauvaise haleine</string>
+			<string>même la mort te fuit</string>
+			<string>Tu utilises du dentifrice à l&apos;ail?</string>
+			<string>On t&apos;as déjà appelé &quot;Yéti&quot;?</string>
+			<string>Tu devrais aller voir un dentiste!</string>
+			<string>même satan n&apos;a pas aussi mauvaise haleine!</string>
+			<string>par pitié!!!</string>
+		</array>
+		<key>good</key>
+		<array>
+			<string>Ton haleine est parfaite comme une fleur de lotus</string>
+			<string>Pas de problême ici</string>
+			<string>tu as passé le test!</string>
+			<string>tu as gagné le droit d&apos;embrasser quelqu&apos;un</string>
+			<string>ça sent bon comme les roses</string>
+			<string>Je vois, tu viens de t&apos;être brossé les dents</string>
+		</array>
+	</dict>
+	<key>List_SmellSimilarity</key>
+	<dict>
+		<key>bad</key>
+		<dict>
+			<key>New item</key>
+			<string>des toilettes de bistro</string>
+			<key>New item - 10</key>
+			<string>un caca écrasé</string>
+			<key>New item - 11</key>
+			<string>un putois puant</string>
+			<key>New item - 12</key>
+			<string>un pirate qui ne s&apos;est jamais lavé les dents</string>
+			<key>New item - 13</key>
+			<string>un pied de marathonien</string>
+			<key>New item - 14</key>
+			<string>un singe tout sale</string>
+			<key>New item - 15</key>
+			<string>un âne</string>
+			<key>New item - 16</key>
+			<string>un chat écrasé</string>
+			<key>New item - 17</key>
+			<string>la bouche d&apos;un alligator</string>
+			<key>New item - 2</key>
+			<string>un rat mort</string>
+			<key>New item - 3</key>
+			<string>une poubelle jamais lavée</string>
+			<key>New item - 4</key>
+			<string>un volcan qui va exploser</string>
+			<key>New item - 5</key>
+			<string>l&apos;enfer</string>
+			<key>New item - 6</key>
+			<string>des chaussures de clochard</string>
+			<key>New item - 7</key>
+			<string> des chaussettes de sportif</string>
+			<key>New item - 8</key>
+			<string>un vieux zombie</string>
+			<key>New item - 9</key>
+			<string>un très mauvais varan</string>
+		</dict>
+		<key>good</key>
+		<dict>
+			<key>New item</key>
+			<string>une fleur de lotus</string>
+			<key>New item - 2</key>
+			<string>un bonbon à la menthe</string>
+			<key>New item - 3</key>
+			<string>de la vanille</string>
+			<key>New item - 4</key>
+			<string>une fraise</string>
+			<key>New item - 5</key>
+			<string>du dentifrice</string>
+			<key>New item - 6</key>
+			<string>de le cannelle</string>
+			<key>New item - 7</key>
+			<string>le printemps</string>
+			<key>New item - 8</key>
+			<string>ça sent rien ;)</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

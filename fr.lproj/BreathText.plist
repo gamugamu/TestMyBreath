@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>label_A</key>
+	<string>avec l&apos;entrée micro</string>
+	<key>label_AB</key>
+	<string>soufle doucement sur l&apos;entrée micro</string>
+	<key>label_ABTitle</key>
+	<string>A et B</string>
+	<key>label_B</key>
+	<string>version 4</string>
+	<key>label_BreathData</key>
+	<string>ton haleine:</string>
+	<key>label_BreathResult</key>
+	<string>Résultat de l&apos;haleine:</string>
+	<key>label_NoMicDetected</key>
+	<string>TestMyBreath a besoin d&apos;un micro pour analyser ton haleine.</string>
+	<key>label_SmellSimilarity</key>
+	<string>odeur similaire:</string>
+	<key>label_Sorry</key>
+	<string>désolé, mais...</string>
+	<key>label_WhatUCanDo</key>
+	<string>Tu peux toujours rajouter un micro ou un écouteur avec micro sur ton appareil</string>
+	<key>MicDetected</key>
+	<string>Micro Détecté!</string>
+	<key>MicInstruction</key>
+	<string>souffle sur l&apos;entrée micro</string>
+</dict>
+</plist>
