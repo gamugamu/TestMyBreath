@@ -19,13 +19,13 @@
 #pragma mark Application lifecycle
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
 	BAStarter* starter = [[BAStarter alloc] init];
- 	NSLog(@"---> %@", viewController.view);
     
-	GGNavigator* ggNavigator	= [[GGNavigator alloc] initWithDelegate: starter];
+	GGNavigator* ggNavigator	= [[[GGNavigator alloc] initWithDelegate: starter] autorelease];
 	[self           setViewController: ggNavigator];
+    
+    self.window.rootViewController = self.viewController;
     [self.window    addSubview: viewController.view];
     [self.window    makeKeyAndVisible];
-	[ggNavigator	release];
     return YES;
 }
 

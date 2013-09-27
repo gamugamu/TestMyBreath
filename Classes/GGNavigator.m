@@ -53,8 +53,8 @@
 }
 
 - (void)swapDelegate:(UIViewController*)delegate_{
-	if(![delegate_ conformsToProtocol:@protocol(GGNavigatorDelegate)])
-		[NSException raise:@"Invalid delegate_ value" format:@"%@ must implement GGNavigation protocol", delegate_];
+//	if(![delegate_ conformsToProtocol:@protocol(GGNavigatorDelegate)])
+//		[NSException raise:@"Invalid delegate_ value" format:@"%@ must implement GGNavigation protocol", delegate_];
 	
 	[self set_next_delegate: delegate_];
 	[BATrans beginTransition:[self view] withDelegate: self];
@@ -62,8 +62,8 @@
 
 - (id)initWithDelegate:(UIViewController*) delegate_{
 	if((self = [super init])){
-		[self set_delegate: delegate_];
-		//[[self view] insertSubview:[delegate_ view] atIndex:0];
+		//[self set_delegate: delegate_];
+		[[self view] insertSubview:[delegate_ view] atIndex:0];
 		//[(id <GGNavigatorDelegate>)delegate_ viewWillbeCalled: self];
 		NSLog(@"INITTT***");
 		//[self swapDelegate: nil];
