@@ -21,12 +21,9 @@
 			wim,
 			navigator;
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-
 #pragma mark button logic
 - (IBAction) startPressed:(id)sender{
+    
 	[navigator goNextPressed];
 }
 
@@ -52,11 +49,16 @@
 	return nil;
 }
 
+
 - (void)viewWillbeCalled:(GGNavigator*)navigator_{
 	navigator = navigator_;
 }
 
 - (void)viewWillUndo{
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
 }
 
 - (void)viewDidUnload {

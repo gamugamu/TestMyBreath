@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @class BAStarterbaground;
-@interface BAStarterView : UIView 
+@interface BAStarterView : UIView
 @end

@@ -15,7 +15,7 @@
 #define GGAnim			@"GGAnim"
 #define GGTWEEN_ERROR	@"Invalid TweenMode value"
 #define GGTWEEN_ERRORD	@"value is invalid"
-NSString* properties[] = {@"opacity", @"position", @"transform.scale" ,@"transform.rotation.z", @"backgroundColor"};
+NSString* properties[] = {@"opacity", @"position", @"transform" ,@"transform.rotation.z", @"backgroundColor"};
 
 #pragma mark tweenLogic
 + (void)tween:(CALayer*)anmView to:(GGTweenVector)toVector data:(GGTweenData)tweenData{

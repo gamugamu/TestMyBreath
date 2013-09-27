@@ -29,6 +29,9 @@ typedef enum{
 	BAStag_lbl	= 100
 }BAStarter_tag;
 
+
+#pragma mark buttonAction
+
 - (void)beforeDisplay{
 	// add breathContent
 	[self set_breathes: [[UIView alloc] initWithFrame: CGRectMake(0, 0, 10, 10)]];
@@ -47,12 +50,14 @@ typedef enum{
 }
 
 #pragma mark animation
+
 - (void)constantAnim{
+
 	UIView* mouth		= [self viewWithTag: BAStag_mth];
 	UIView* button		= [self viewWithTag: BAStag_btn];
 
-	[GGTween tween:mouth.layer	to:(GGTweenVector){1.05f, .98f} data:(GGTweenData){1, 1.2f, 0, 0, ggTweenScale, ggTweenBounce, MAXFLOAT, 0}];
-	[GGTween tween:button.layer	to:(GGTweenVector){1.2, 1}	data:(GGTweenData){1, 1.2f, .6f, 0, ggTweenScale, ggTweenBounce, MAXFLOAT, 0}];
+	[GGTween tween:mouth.layer	to:(GGTweenVector){1.05f, .98f} data:(GGTweenData){1.f, 1.2f, 0.f, 0, ggTweenScale, ggTweenBounce, MAXFLOAT, 0, NO}];
+    [GGTween tween:button.layer	to:(GGTweenVector){1.2, 1}	data:(GGTweenData){1.f, 1.2f, .6f, 0, ggTweenScale, ggTweenBounce, MAXFLOAT, 0, NO}];
 }
 
 #define BABreathImgFile @"boc.png"
@@ -102,6 +107,7 @@ typedef enum{
     CGGradientRelease(gradient), gradient = NULL;
     CGContextRestoreGState(context);
 }
+
 - (id)initWithCoder:(NSCoder *)aDecoder{
 	if((self = [super initWithCoder:aDecoder])){
 		[self beforeDisplay];
@@ -113,5 +119,6 @@ typedef enum{
 	[_breathes	release];
     [super		dealloc];
 }
+
 @end
 

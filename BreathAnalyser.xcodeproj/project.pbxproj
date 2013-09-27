@@ -253,7 +253,7 @@
 		79BB94821340DA55009C459E /* GGNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GGNavigator.m; path = Classes/GGNavigator.m; sourceTree = "<group>"; };
 		79BB949D1340DDFD009C459E /* BAStarter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAStarter.h; sourceTree = "<group>"; };
 		79BB949E1340DDFD009C459E /* BAStarter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAStarter.m; sourceTree = "<group>"; };
-		79BB949F1340DDFD009C459E /* BAStarter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BAStarter.xib; path = Classes/BAStarter.xib; sourceTree = "<group>"; };
+		79BB949F1340DDFD009C459E /* BAStarter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BAStarter.xib; sourceTree = "<group>"; };
 		79BB94FC1340E033009C459E /* GGNavigator.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GGNavigator.xib; sourceTree = "<group>"; };
 		79BB952D1340E26E009C459E /* GGNavigator.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GGNavigator.xib; sourceTree = "<group>"; };
 		79BB95831340EABC009C459E /* GGNavigatorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GGNavigatorDelegate.h; path = Classes/GGNavigatorDelegate.h; sourceTree = "<group>"; };
@@ -319,9 +319,9 @@
 			isa = PBXGroup;
 			children = (
 				798838811349DD3E0071B331 /* BAPreference.h */,
-				79A3DB6513431E4A00A49F34 /* views */,
 				79C55E02130C22EF000DAB79 /* main */,
 				79C56008130C4CBB000DAB79 /* controllers */,
+				79A3DB6513431E4A00A49F34 /* views */,
 				79C55FDD130C4B30000DAB79 /* engine */,
 			);
 			path = Classes;
@@ -490,7 +490,6 @@
 			children = (
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				79BB952D1340E26E009C459E /* GGNavigator.xib */,
-				79BB949F1340DDFD009C459E /* BAStarter.xib */,
 				79686469134200950027FD65 /* BAAnalysis.xib */,
 				2899E5210DE3E06400AC0155 /* BADetector.xib */,
 				8D1107310486CEB800E47090 /* BreathAnalyser-Info.plist */,
@@ -505,6 +504,7 @@
 			children = (
 				7988387E1349DA640071B331 /* BAStarterView.h */,
 				7988387F1349DA640071B331 /* BAStarterView.m */,
+				79BB949F1340DDFD009C459E /* BAStarter.xib */,
 			);
 			name = Starter;
 			sourceTree = "<group>";

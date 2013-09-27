@@ -65,7 +65,7 @@
 		//[self set_delegate: delegate_];
 		[[self view] insertSubview:[delegate_ view] atIndex:0];
 		//[(id <GGNavigatorDelegate>)delegate_ viewWillbeCalled: self];
-		NSLog(@"INITTT***");
+
 		//[self swapDelegate: nil];
 	}
 	return self;
