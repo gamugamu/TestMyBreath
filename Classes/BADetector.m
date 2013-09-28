@@ -122,7 +122,7 @@ enum{
 	label_A.text			= [localisation objectForKey: @"label_A"];
 	label_A.font			= Karim14;
 	label_A.textColor		= pinkColor;
-	
+
 	UILabel* label_B		= (UILabel*)[_detectedView viewWithTag: Label_B];
 	label_B.text			= [localisation objectForKey: @"label_B"];
 	label_B.font			= Karim14;
@@ -141,7 +141,9 @@ enum{
 	label_AB.numberOfLines	= 2;
 	
 	[_detectedView addSubview: infoBtn];
-	[[_detectedView viewWithTag: 1] setBackgroundColor: [BAColorPicker swatchColor: BALightCyan]];
+    UIView* backgroundGradient  = [_detectedView viewWithTag: 1];
+    backgroundGradient.frame    = SCREEN_IPHONE_5;
+	[backgroundGradient setBackgroundColor: [BAColorPicker swatchColor: BALightCyan]];
 	[infoBtn release];
 		
 	//-- no detector view --//
@@ -303,8 +305,9 @@ enum{
 - (void)viewDidLoad {
 	_engine		= [[BAEngine alloc] initWithDelegate: self];
 	_jaugeC		= [[BAJaugeController alloc] initWithDelegate: self];
-	_skullLayer	= [[BAAllover alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+	_skullLayer	= [[BAAllover alloc] initWithFrame:CGRectMake(0, 0, 320, IS_IPHONE_5? SCREEN_IPHONE_HEIGHT : 480)];
 	[_engine startAnalysingBreath];
+    [self resizeIfIphone5];
 	[self	decorate];
 	[self	showEngineIsWorkinView: _engine.isDetecting];
     [super	viewDidLoad];
@@ -332,4 +335,14 @@ enum{
     [super					dealloc];
 }
 
+#pragma mark - display
+
+- (void)resizeIfIphone5{
+    if(IS_IPHONE_5){
+        self.view.frame = SCREEN_IPHONE_5;
+        self.view.backgroundColor = [UIColor redColor];
+       // UIView* background = [self.view viewWithTag: 100];
+       // background.frame = SCREEN_IPHONE_5;
+    }
+}
 @end

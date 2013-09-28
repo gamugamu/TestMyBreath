@@ -142,7 +142,7 @@
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="topRight" image="nom.png" id="49">
-                    <rect key="frame" x="102" y="94" width="176.72999999999999" height="160.125"/>
+                    <rect key="frame" x="102" y="94" width="177" height="160"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="TopLeft" image="logo.png" id="51">
@@ -150,7 +150,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="50" contentMode="left" text="Sorry but" lineBreakMode="tailTruncation" minimumFontSize="10" adjustsFontSizeToFit="NO" id="52" userLabel="sorry">
-                    <rect key="frame" x="113" y="42" width="218" height="54.160200000000003"/>
+                    <rect key="frame" x="113" y="42" width="218" height="54"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <accessibility key="accessibilityConfiguration" label="">
                         <bool key="isElement" value="NO"/>
@@ -160,25 +160,25 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="51" contentMode="left" text="No mic detected on your ihpone" lineBreakMode="tailTruncation" numberOfLines="5" minimumFontSize="10" adjustsFontSizeToFit="NO" id="53" userLabel="noMicDetected">
-                    <rect key="frame" x="13" y="180" width="102.059" height="108.941"/>
+                    <rect key="frame" x="13" y="180" width="102" height="109"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="52" contentMode="left" text="You can still plug blablabla" lineBreakMode="tailTruncation" numberOfLines="5" minimumFontSize="10" adjustsFontSizeToFit="NO" id="54" userLabel="WhatUCanDo">
-                    <rect key="frame" x="61" y="323.82900000000001" width="106.378" height="98.441400000000002"/>
+                    <rect key="frame" x="61" y="324" width="106" height="98"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView userInteractionEnabled="NO" tag="70" contentMode="TopLeft" image="war_1.png" id="72">
-                    <rect key="frame" x="215" y="324" width="33.691400000000002" height="29.894500000000001"/>
+                    <rect key="frame" x="215" y="324" width="34" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" tag="71" contentMode="TopLeft" image="war_0.png" id="73">
-                    <rect key="frame" x="275" y="329" width="33.691400000000002" height="29.894500000000001"/>
+                    <rect key="frame" x="275" y="329" width="34" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>
