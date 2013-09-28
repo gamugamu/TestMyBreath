@@ -176,7 +176,7 @@ static BOOL inTrans = NO;
 - (void)animateGauge{
 	if(!inTrans){
 		UIView* jauge		= [_jaugeC display];
-		jauge.center		= CGPointMake(30, 150);
+		jauge.center		= CGPointMake(30, IS_IPHONE_5? 200 : 150);
 		jauge.alpha			= 0;
 		_skullLayer.alpha	= 1;
 		[[self view] addSubview: _skullLayer];
@@ -311,6 +311,7 @@ enum{
 	[self	decorate];
 	[self	showEngineIsWorkinView: _engine.isDetecting];
     [super	viewDidLoad];
+    [self swapToNoDetector];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -340,9 +341,7 @@ enum{
 - (void)resizeIfIphone5{
     if(IS_IPHONE_5){
         self.view.frame = SCREEN_IPHONE_5;
-        self.view.backgroundColor = [UIColor redColor];
-       // UIView* background = [self.view viewWithTag: 100];
-       // background.frame = SCREEN_IPHONE_5;
+        _noDetectedView.frame = SCREEN_IPHONE_5;
     }
 }
 @end
