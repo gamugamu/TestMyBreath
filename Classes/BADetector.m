@@ -311,7 +311,6 @@ enum{
 	[self	decorate];
 	[self	showEngineIsWorkinView: _engine.isDetecting];
     [super	viewDidLoad];
-    [self swapToNoDetector];
 }
 
 - (void)didReceiveMemoryWarning {

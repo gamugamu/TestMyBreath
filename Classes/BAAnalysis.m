@@ -107,9 +107,10 @@ enum{
 
 #pragma mark alloc/dealloc
 - (void)viewDidLoad{
-    [self	set_analyser:[[BAAnalyser alloc] init]];
-	[self	decorate];
-	[self	displayData];
+    [self set_analyser:[[BAAnalyser alloc] init]];
+	[self decorate];
+    [self resizeIfIhpone5];
+	[self displayData];
 	[super	viewDidLoad];
 }
 
@@ -127,4 +128,13 @@ enum{
 	[_analyser			release];
     [super				dealloc];
 }
+
+#pragma mark - display
+
+- (void)resizeIfIhpone5{
+    if(IS_IPHONE_5){
+        self.view.frame = SCREEN_IPHONE_5;
+    }
+}
+
 @end

@@ -48,8 +48,8 @@
 		7968646B134200950027FD65 /* BAAnalysis.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79686469134200950027FD65 /* BAAnalysis.xib */; };
 		7973CC381382A6F60089A653 /* enc.png in Resources */ = {isa = PBXBuildFile; fileRef = 7973CC361382A6F60089A653 /* enc.png */; };
 		7973CC391382A6F60089A653 /* enc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7973CC371382A6F60089A653 /* enc@2x.png */; };
-		7973CCD91382DC3C0089A653 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7973CCD71382DC3C0089A653 /* default@2x.png */; };
-		7973CCDA1382DC3C0089A653 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7973CCD81382DC3C0089A653 /* default.png */; };
+		7973CCD91382DC3C0089A653 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7973CCD71382DC3C0089A653 /* Default.png */; };
+		7973CCDA1382DC3C0089A653 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7973CCD81382DC3C0089A653 /* Default~iphone.png */; };
 		7973CCDB1382DD040089A653 /* BreathData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7973CCDD1382DD040089A653 /* BreathData.plist */; };
 		7973CCDF1382DF7D0089A653 /* BreathText.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7973CCE11382DF7D0089A653 /* BreathText.plist */; };
 		7973CCEB1382E7A30089A653 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 7973CCE61382E7A20089A653 /* iTunesArtwork */; };
@@ -134,6 +134,11 @@
 		79E889CD1342665E00D4C521 /* BAPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E889CC1342665C00D4C521 /* BAPieChartView.m */; };
 		79E889CF134268F700D4C521 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E889CE134268F600D4C521 /* QuartzCore.framework */; };
 		D30164BE17F5F9DB008CCAA0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D30164BD17F5F9DB008CCAA0 /* Default-568h@2x.png */; };
+		D37CCCCA17F6E395007BBE01 /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = D37CCCC817F6E395007BBE01 /* icon114.png */; };
+		D37CCCCB17F6E395007BBE01 /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = D37CCCC917F6E395007BBE01 /* icon120.png */; };
+		D37CCCCF17F6E399007BBE01 /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = D37CCCCC17F6E399007BBE01 /* icon80.png */; };
+		D37CCCD017F6E399007BBE01 /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = D37CCCCD17F6E399007BBE01 /* icon58.png */; };
+		D37CCCD117F6E399007BBE01 /* icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = D37CCCCE17F6E399007BBE01 /* icon29.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -190,8 +195,8 @@
 		79686469134200950027FD65 /* BAAnalysis.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BAAnalysis.xib; sourceTree = "<group>"; };
 		7973CC361382A6F60089A653 /* enc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enc.png; sourceTree = "<group>"; };
 		7973CC371382A6F60089A653 /* enc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enc@2x.png"; sourceTree = "<group>"; };
-		7973CCD71382DC3C0089A653 /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@2x.png"; sourceTree = "<group>"; };
-		7973CCD81382DC3C0089A653 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		7973CCD71382DC3C0089A653 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7973CCD81382DC3C0089A653 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
 		7973CCDC1382DD040089A653 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/BreathData.plist; sourceTree = "<group>"; };
 		7973CCDE1382DD130089A653 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/BreathData.plist; sourceTree = "<group>"; };
 		7973CCE01382DF7D0089A653 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/BreathText.plist; sourceTree = "<group>"; };
@@ -299,6 +304,11 @@
 		8D1107310486CEB800E47090 /* BreathAnalyser-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BreathAnalyser-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D30164BD17F5F9DB008CCAA0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D30164BF17F5FB40008CCAA0 /* IphoneUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IphoneUtils.h; sourceTree = "<group>"; };
+		D37CCCC817F6E395007BBE01 /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		D37CCCC917F6E395007BBE01 /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		D37CCCCC17F6E399007BBE01 /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		D37CCCCD17F6E399007BBE01 /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
+		D37CCCCE17F6E399007BBE01 /* icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon29.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -342,7 +352,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				D30164BD17F5F9DB008CCAA0 /* Default-568h@2x.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -372,7 +381,6 @@
 				7988387B1349D90D0071B331 /* xib-plist */,
 				794CDD981344C1F700241882 /* fonts */,
 				79BB93B11340CB37009C459E /* img */,
-				7901C620133D0B8500015FF8 /* icons */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -393,6 +401,8 @@
 		7901C620133D0B8500015FF8 /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				D37CCCC817F6E395007BBE01 /* icon114.png */,
+				D37CCCC917F6E395007BBE01 /* icon120.png */,
 				7901C62A133D0C2900015FF8 /* icon.png */,
 				7901C62B133D0C2900015FF8 /* icon@2x.png */,
 				7973CCE61382E7A20089A653 /* iTunesArtwork */,
@@ -400,6 +410,9 @@
 				7973CCE81382E7A20089A653 /* Icon-Small.png */,
 				7973CCE91382E7A30089A653 /* Icon-Small-50.png */,
 				7973CCEA1382E7A30089A653 /* Icon-Small@2x.png */,
+				D37CCCCC17F6E399007BBE01 /* icon80.png */,
+				D37CCCCD17F6E399007BBE01 /* icon58.png */,
+				D37CCCCE17F6E399007BBE01 /* icon29.png */,
 			);
 			name = icons;
 			sourceTree = "<group>";
@@ -539,9 +552,11 @@
 		79BB93B11340CB37009C459E /* img */ = {
 			isa = PBXGroup;
 			children = (
+				7901C620133D0B8500015FF8 /* icons */,
 				79BB94071340CCB1009C459E /* global */,
-				7973CCD71382DC3C0089A653 /* default@2x.png */,
-				7973CCD81382DC3C0089A653 /* default.png */,
+				7973CCD71382DC3C0089A653 /* Default.png */,
+				D30164BD17F5F9DB008CCAA0 /* Default-568h@2x.png */,
+				7973CCD81382DC3C0089A653 /* Default~iphone.png */,
 				79BB94041340CC63009C459E /* img_app_0 */,
 				79BB94051340CC73009C459E /* img_starter */,
 				79BB94061340CC8F009C459E /* img_noDev */,
@@ -796,6 +811,7 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* BADetector.xib in Resources */,
 				7901C62C133D0C2900015FF8 /* icon.png in Resources */,
+				D37CCCCF17F6E399007BBE01 /* icon80.png in Resources */,
 				7901C62D133D0C2900015FF8 /* icon@2x.png in Resources */,
 				79BB93DB1340CB43009C459E /* logo.png in Resources */,
 				79BB93DC1340CB43009C459E /* logo@2x.png in Resources */,
@@ -819,6 +835,7 @@
 				79BB93F01340CB43009C459E /* hta@2x.png in Resources */,
 				79BB93F11340CB43009C459E /* nom.png in Resources */,
 				79BB93F21340CB43009C459E /* nom@2x.png in Resources */,
+				D37CCCCB17F6E395007BBE01 /* icon120.png in Resources */,
 				79BB94A11340DDFD009C459E /* BAStarter.xib in Resources */,
 				79BB94FD1340E033009C459E /* GGNavigator.xib in Resources */,
 				7968646B134200950027FD65 /* BAAnalysis.xib in Resources */,
@@ -844,6 +861,7 @@
 				79DA7C821349E557006E3F47 /* cut_4@2x.png in Resources */,
 				79DA7C831349E557006E3F47 /* cut_5.png in Resources */,
 				79DA7C841349E557006E3F47 /* cut_5@2x.png in Resources */,
+				D37CCCD117F6E399007BBE01 /* icon29.png in Resources */,
 				79DA7C851349E557006E3F47 /* cut_6.png in Resources */,
 				79DA7C861349E557006E3F47 /* cut_6@2x.png in Resources */,
 				79DA7C871349E557006E3F47 /* cut_7.png in Resources */,
@@ -868,6 +886,7 @@
 				7954C631134F46AE00DCA55B /* allOver1.png in Resources */,
 				7973CCDF1382DF7D0089A653 /* BreathText.plist in Resources */,
 				798FCC09137D5662009B007B /* war_0.png in Resources */,
+				D37CCCD017F6E399007BBE01 /* icon58.png in Resources */,
 				798FCC0A137D5662009B007B /* war_0@2x.png in Resources */,
 				798FCC0B137D5662009B007B /* war_1.png in Resources */,
 				798FCC0C137D5662009B007B /* war_1@2x.png in Resources */,
@@ -877,11 +896,12 @@
 				790E1758137E9C45009F49B4 /* bkg_wim@2x.png in Resources */,
 				790E1759137E9C45009F49B4 /* btn.png in Resources */,
 				790E175A137E9C45009F49B4 /* btn@2x.png in Resources */,
+				D37CCCCA17F6E395007BBE01 /* icon114.png in Resources */,
 				790E175C137E9C45009F49B4 /* Wim.xib in Resources */,
 				7973CC381382A6F60089A653 /* enc.png in Resources */,
 				7973CC391382A6F60089A653 /* enc@2x.png in Resources */,
-				7973CCD91382DC3C0089A653 /* default@2x.png in Resources */,
-				7973CCDA1382DC3C0089A653 /* default.png in Resources */,
+				7973CCD91382DC3C0089A653 /* Default.png in Resources */,
+				7973CCDA1382DC3C0089A653 /* Default~iphone.png in Resources */,
 				7973CCEB1382E7A30089A653 /* iTunesArtwork in Resources */,
 				7973CCEC1382E7A30089A653 /* Icon-72.png in Resources */,
 				7973CCED1382E7A30089A653 /* Icon-Small.png in Resources */,
@@ -971,6 +991,7 @@
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = NO;
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -990,6 +1011,7 @@
 				PRODUCT_NAME = BreathAnalyser;
 				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
@@ -1025,6 +1047,7 @@
 				PRODUCT_NAME = BreathAnalyser;
 				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
 			};
 			name = Distribution;
 		};
